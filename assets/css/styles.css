@@ -295,6 +295,38 @@ html{
     width: 60%; /* ANCHO DE LA BARRA JAVA */
     animation: java 3s; /* ANIMACIÓN */
 }
+
+/* Habilidades de diseño UX */
+.investigacion-usuarios {
+    width: 80%; /* ANCHO DE LA BARRA DE INVESTIGACIÓN DE USUARIOS */
+    background: linear-gradient(to right, #FFB6C1, #FF6347); /* GRADIENTE ROSADO Y NARANJA */
+    animation: investigacion-usuarios 3s; /* ANIMACIÓN */
+}
+.diseno-interfaces {
+    width: 75%; /* ANCHO DE LA BARRA DE DISEÑO DE INTERFACES */
+    background: linear-gradient(to right, #FF6347, #FFD700); /* GRADIENTE NARANJA Y AMARILLO */
+    animation: diseno-interfaces 3s; /* ANIMACIÓN */
+}
+.prototipado {
+    width: 85%; /* ANCHO DE LA BARRA DE PROTOTIPADO */
+    background: linear-gradient(to right, #FFD700, #32CD32); /* GRADIENTE AMARILLO Y VERDE */
+    animation: prototipado 3s; /* ANIMACIÓN */
+}
+.usabilidad {
+    width: 90%; /* ANCHO DE LA BARRA DE USABILIDAD */
+    background: linear-gradient(to right, #32CD32, #1E90FF); /* GRADIENTE VERDE Y AZUL */
+    animation: usabilidad 3s; /* ANIMACIÓN */
+}
+.wireframing {
+    width: 70%; /* ANCHO DE LA BARRA DE WIREFRAMING */
+    background: linear-gradient(to right, #1E90FF, #8A2BE2); /* GRADIENTE AZUL Y VIOLETA */
+    animation: wireframing 3s; /* ANIMACIÓN */
+}
+.figma {
+    width: 80%; /* ANCHO DE LA BARRA DE FIGMA */
+    background: linear-gradient(to right, #8A2BE2, #6A5ACD); /* GRADIENTE VIOLETA Y AZUL */
+    animation: figma 3s; /* ANIMACIÓN */
+}
 @keyframes html {
     0% {
         width: 0%; /* INICIO DE ANIMACIÓN */
@@ -333,6 +365,54 @@ html{
     }
     100% {
         width: 60%; /* FIN DE ANIMACIÓN */
+    }
+}
+@keyframes investigacion-usuarios {
+    0% {
+        width: 0%; /* INICIO DE ANIMACIÓN */
+    }
+    100% {
+        width: 80%; /* FIN DE ANIMACIÓN */
+    }
+}
+@keyframes diseno-interfaces {
+    0% {
+        width: 0%; /* INICIO DE ANIMACIÓN */
+    }
+    100% {
+        width: 75%; /* FIN DE ANIMACIÓN */
+    }
+}
+@keyframes prototipado {
+    0% {
+        width: 0%; /* INICIO DE ANIMACIÓN */
+    }
+    100% {
+        width: 85%; /* FIN DE ANIMACIÓN */
+    }
+}
+@keyframes usabilidad {
+    0% {
+        width: 0%; /* INICIO DE ANIMACIÓN */
+    }
+    100% {
+        width: 90%; /* FIN DE ANIMACIÓN */
+    }
+}
+@keyframes wireframing {
+    0% {
+        width: 0%; /* INICIO DE ANIMACIÓN */
+    }
+    100% {
+        width: 70%; /* FIN DE ANIMACIÓN */
+    }
+}
+@keyframes figma {
+    0% {
+        width: 0%; /* INICIO DE ANIMACIÓN */
+    }
+    100% {
+        width: 80%; /* FIN DE ANIMACIÓN */
     }
 }
 
@@ -512,6 +592,7 @@ html{
     font-size: 24px;
     display: inline-block; /* Para que estén en la misma línea */
 }
+
 
 /* SECCION CONTACTO */
 .contacto {
